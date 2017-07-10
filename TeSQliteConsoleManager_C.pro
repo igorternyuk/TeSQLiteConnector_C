@@ -4,10 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.c \
-    sqlite3.c
+    sqlite3.c \
+    manager.c
 
 HEADERS += \
-    sqlite3.h
+    sqlite3.h \
+    manager.h
 
 LIBS += -lpthread -ldl
 
